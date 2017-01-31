@@ -1,0 +1,1 @@
+docker build -t rawmind/alpine-link-local:$(cat version) .
