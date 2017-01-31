@@ -13,7 +13,7 @@ docker build -t rawmind/alpine-link-local:<version> .
 
 ## Versions
 
-- `0.1` [(Dockerfile)](https://github.com/rawmind0/alpine-link-local/blob/0.1/Dockerfile).
+- `0.2` [(Dockerfile)](https://github.com/rawmind0/alpine-link-local/blob/0.2/Dockerfile).
 
 ## Env variables
 
@@ -29,7 +29,7 @@ This image basically, add a net route to a vswitch. It's specially thought to ad
 docker run -t \
   -e "DESTINATION_IP=169.254.169.251" \
   -e "BRIDGE=docker0" \
-  --cap_add:NET_ADMIN \
+  --cap-add NET_ADMIN \
   --network=host \
   rawmind/alpine-link-local:<version> .
 ```
