@@ -13,7 +13,7 @@ docker build -t rawmind/alpine-link-local:<version> .
 
 ## Versions
 
-- `0.2` [(Dockerfile)](https://github.com/rawmind0/alpine-link-local/blob/0.2/Dockerfile).
+- `0.1-1` [(Dockerfile)](https://github.com/rawmind0/alpine-link-local/blob/0.1-1/Dockerfile).
 
 ## Env variables
 
